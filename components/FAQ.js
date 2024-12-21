@@ -7,22 +7,21 @@ import { useRef, useState } from "react";
 
 const faqList = [
   {
-    question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
+    question: "What does SubAlert do?",
+    answer: <div className="space-y-2 leading-relaxed">SubAlert helps you track and manage all your subscriptions by scanning your email for recurring charges, notifying you of renewals, and providing insights to optimize your spending.</div>,
   },
   {
-    question: "Can I get a refund?",
+    question: "Is my data safe with SubAlert?",
     answer: (
       <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
+        Absolutely! We use bank-grade encryption, and your email data is accessed securely with your permission. SubAlert never shares your personal information.
       </p>
     ),
   },
   {
-    question: "I have another question",
+    question: "Can I cancel at any time?",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email</div>
+      <div className="space-y-2 leading-relaxed">Yes, you can cancel your SubAlert anytime directly from your account settings. </div>
     ),
   },
 ];

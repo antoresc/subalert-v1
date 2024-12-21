@@ -12,9 +12,9 @@ import Image from "next/image";
 // - alt: The alt text of the image (if type is 'image')
 const features = [
   {
-    title: "Emails",
+    title: "Subscription Detection",
     description:
-      "Send transactional emails, setup your DNS to avoid spam folder (DKIM, DMARC, SPF in subdomain), and listen to webhook to receive & forward emails",
+      "Automatically scan your email inbox to identify all recurring subscriptions, renewal dates, and costs. No manual input needed.",
     type: "video",
     path: "https://d3m8mk7e1mf7xn.cloudfront.net/app/newsletter.webm",
     format: "video/webm",
@@ -35,9 +35,9 @@ const features = [
     ),
   },
   {
-    title: "Payments",
+    title: "Spending Insights",
     description:
-      "Create checkout sessions, handle webhooks to update user's account (subscriptions, one-time payments...) and tips to setup your account & reduce chargebacks",
+      "Get a clear overview of how much you’re spending on subscriptions each month, helping you optimize and save",
     type: "image",
     path: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
     alt: "A computer",
@@ -59,9 +59,9 @@ const features = [
     ),
   },
   {
-    title: "Authentication",
+    title: "Renewal Alerts",
     description:
-      "Magic links setup, login with Google walkthrough, save user in MongoDB/Supabase, private/protected pages & API calls",
+      "Receive timely notifications before a subscription renews so you can decide whether to continue or cancel.",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ const features = [
     ),
   },
   {
-    title: "Style",
+    title: "Bundle Suggestions",
     description:
       "Components, animations & sections (like this features section), 20+ themes with daisyUI, automatic dark mode",
     svg: (
@@ -95,7 +95,12 @@ const features = [
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"
+          d="M3 3h18v18H3V3z"
+        />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M3 9h18M3 15h18"
         />
       </svg>
     ),
@@ -196,9 +201,9 @@ const FeaturesAccordion = () => {
     >
       <div className="px-8">
         <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-12 md:mb-24">
-          All you need to ship your startup fast
+          All you need to start saving money
           <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">
-            and get profitable
+            and get back control
           </span>
         </h2>
         <div className=" flex flex-col md:flex-row gap-12 md:gap-24">

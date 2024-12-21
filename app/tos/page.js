@@ -57,39 +57,47 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: September 26, 2023
+          {`Last Updated: December 20, 2024
 
-Welcome to ShipFast!
+Terms & Services
+Effective Date: December 20, 2024
 
-These Terms of Service ("Terms") govern your use of the ShipFast website at https://shipfa.st ("Website") and the services provided by ShipFast. By using our Website and services, you agree to these Terms.
+Welcome to SubAlert. By using our website and services at subalert.org, you agree to the following Terms & Services. If you do not agree with these terms, please do not use our services.
 
-1. Description of ShipFast
+1. General Information
 
-ShipFast is a platform that offers a JavaScript code boilerplate to assist entrepreneurs in launching their startups more efficiently.
+Website Owner: SubAlert
+Contact Information: asksubalert@gmail.com
+Description of Services: SubAlert helps users track recurring expenses, sends alerts before renewals, and provides tools to manage their finances effortlessly.
 
-2. Ownership and Usage Rights
+2. Ownership
 
-When you purchase a package from ShipFast, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
+By purchasing or subscribing to SubAlert, you gain access to our services but do not own the technology behind the app. You retain ownership of your personal data, which we securely manage.
 
-3. User Data and Privacy
+3. Data Collection
 
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://shipfa.st/privacy-policy.
+Personal Data: We collect your name, email, and payment information to provide our services.
+Non-Personal Data: We use web cookies to improve the user experience on subalert.org.
+For more details on how we handle your data, please refer to our Privacy Policy.
 
-4. Non-Personal Data Collection
+4. User Responsibilities
 
-We use web cookies to collect non-personal data for the purpose of improving our services and user experience.
+You agree to use SubAlert for lawful purposes only.
+You are responsible for ensuring the accuracy of your personal information.
 
 5. Governing Law
 
-These Terms are governed by the laws of France.
+These terms are governed by the laws of France. Any disputes arising from these terms will be resolved under French jurisdiction.
 
 6. Updates to the Terms
 
-We may update these Terms from time to time. Users will be notified of any changes via email.
+We may update these Terms & Services occasionally. If changes occur, we will notify you by email. The updated terms will also be posted on subalert.org.
 
-For any questions or concerns regarding these Terms of Service, please contact us at marc@shipfa.st.
+7. Disclaimer
 
-Thank you for using ShipFast!`}
+SubAlert provides tools for tracking and managing subscriptions but does not guarantee the accuracy of all alerts or notifications. Users are encouraged to review their subscription information independently.
+
+By continuing to use SubAlert, you confirm your agreement to these Terms & Services. For further questions, please contact us at asksubalert@gmail.com.`}
         </pre>
       </div>
     </main>
